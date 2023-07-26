@@ -71,13 +71,13 @@ export const CalcWrapper = () => {
     <>
       <div className="w-screen flex flex-col items-center border-2">
         <div className="flex flex-col border-2 w-[25rem] mt-[4rem]">
-          <div className="h-[3rem] border flex flex-col ">
+          <div className="h-[4rem] border-2 flex flex-col ">
             {/* previous */}
-            <div className="flex justify-end h-[2rem] border-2">
+            <div className="flex justify-end h-[2rem] text-sm px-2 transition-all">
               {previousOperand}
             </div>
             {/* currentOperand */}
-            <div className="flex justify-end">{currentOperand}</div>
+            <div className="flex justify-end h-[2rem] text-2xl px-2 transition-all">{currentOperand}</div>
           </div>
           {/* buttons */}
           <div className="grid grid-cols-4 border-4 w-[25rem]">
